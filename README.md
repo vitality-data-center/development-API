@@ -1,30 +1,26 @@
-**Data Access API**
+# **Data Access API**
 ----
-  This API provides the access to the datasets and their metadata stored at the backend.
+  This API provides the access to the datasets and their metadata stored at the backend. Each user should log in and use his account to browse the datasets available in the data center. 
 
-* **URL**
-
-  <_The URL Structure (path only, no root url)_>
 
 * **Method:**
   
-  <_The request type_>
-
-  `GET` | `POST` | `DELETE` | `PUT`
+  <_The request type: `POST`_>
 
 ## **Request parameters**
 
+| Parameter | Description                                                                                 |
+|:-------------------|:--------------------------------------------------------------------------------------------|
+| `user_id`   | user id |
+| `key_words`  | this is optional and still needs further discussions. Ideally the key works are from users, and is a string with a set of words should be separated by commas, such as {survey} | 
+   
 
-
-
- 
 
 
  ## **Response:**
 The following elements may be present in the response, and will be visualized in the [frontend](https://vitality-data-center.github.io/) 
  
- 
-| Parameter | Description                                                                                 |
+| Value | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
 | `title`   | title of the dataset. |
 | `time_c`  | the time when the dataset was created. | 

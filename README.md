@@ -21,7 +21,7 @@
 
 
  ## **Response:**
-The following elements may be present in the response, and will be visualized in the frontend(https://vitality-data-center.github.io/) 
+The following elements may be present in the response, and will be visualized in the [frontend] (https://vitality-data-center.github.io/) 
  
  
 | Parameter | Description                                                                                 |

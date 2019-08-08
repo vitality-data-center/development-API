@@ -22,6 +22,8 @@ The following elements may be present in the response, and will be visualized in
  
 | Value | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
+| `id`   | the ID of the dataset. |
+| `own_id`   | the ID of the owner of the dataset. |
 | `title`   | title of the dataset. |
 | `time_c`  | the time when the dataset was created. | 
 | `time_u`  | the time when the dataset was uploaded. | 

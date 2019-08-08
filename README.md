@@ -12,7 +12,7 @@
 | Parameter | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
 | `user_id`   | user id |
-| `key_words`  | this is optional and still needs further discussions. Ideally the key works should from users, and is a string with a set of words that separated by commas, such as "noise, running" | 
+| `key_words`  | this is optional and still needs further discussions. Ideally the key works should be from users, and is a string with a set of words that are separated by commas, such as "noise, running" | 
    
 
 

@@ -1,6 +1,6 @@
 **Data Access API**
 ----
-  <_This API provides the access to the datasets and their metadata stored at the backend._>
+  This API provides the access to the datasets and their metadata stored at the backend.
 
 * **URL**
 
@@ -11,21 +11,16 @@
   <_The request type_>
 
   `GET` | `POST` | `DELETE` | `PUT`
-  
-*  **URL Params**
-
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
 
 ## **Request parameters**
+| Parameter | Description                                                                                 |
+|:-------------------|:--------------------------------------------------------------------------------------------|
+| `title`    | Title of the dataset. |
+| 'size' | Size of the dataset.                |
+| `--log <log_file>` | Log console output to a file.                                                               |
 
 
-   **Required:**
  
-   `id=[integer]`
-
-   **Optional:**
- 
-   `photo_id=[alphanumeric]`
 
 
  ## **Response:**

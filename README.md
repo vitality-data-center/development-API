@@ -1,6 +1,6 @@
-**Title**
+**Data Access API**
 ----
-  <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
+  <_This API provides the access to the datasets and their metadata stored at the backend._>
 
 * **URL**
 

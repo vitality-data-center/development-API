@@ -18,7 +18,7 @@
 
 
  ## **Response:**
-The following elements may be present in the response, and will be visualized in the [frontend](https://vitality-data-center.github.io/) 
+The response results may contain information of multiple datasets, so the response may be formatted into a [json array](https://stackoverflow.com/questions/12289844/difference-between-jsonobject-and-jsonarray), and each element in this array corresponds to a json object, which refers to a dataset. The following elements may be present in the response, and will be visualized in the [frontend](https://vitality-data-center.github.io/) 
  
 | Value | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
@@ -32,5 +32,6 @@ The following elements may be present in the response, and will be visualized in
 | `permission` | access permission, possible values: 0=closed; 1=need permission from the owner; 2=open|
 | `context` | the context related to the dataset, possible values: 0=behavioral data; 1=environmental data; 2=unknown|
 | `description` | a short description of the dataset|
+| `link` | the link access to the dataset (still needs to be decided)|
 
 

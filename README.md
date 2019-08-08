@@ -1,6 +1,6 @@
 # **Data Access API**
 ----
-  This API provides the access to the datasets and their metadata stored at the backend. Every user should log in and use his/her account to browse and access the datasets available in the data center. 
+  This API provides the access to the datasets and their metadata stored at the backend. Every user should log in and uses his/her account to browse and access the datasets available in the data center. 
 
 
 * **Method:**

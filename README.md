@@ -13,21 +13,26 @@
   `GET` | `POST` | `DELETE` | `PUT`
 
 ## **Request parameters**
-| Parameter | Description                                                                                 |
-|:-------------------|:--------------------------------------------------------------------------------------------|
-| `title`    | Title of the dataset. |
-| 'size' | Size of the dataset.                |
-| `--log <log_file>` | Log console output to a file.                                                               |
+
+
 
 
  
 
 
  ## **Response:**
-
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
+The following elements may be present in the response, and will be visualized in the frontend(https://vitality-data-center.github.io/) 
+ 
+ 
+| Parameter | Description                                                                                 |
+|:-------------------|:--------------------------------------------------------------------------------------------|
+| `title`   | title of the dataset. |
+| `time_c`  | the time when the dataset was created. | 
+| `time_u`  | the time when the dataset was uploaded. | 
+| `size`  | size of the dataset.                |
+| `means` | the means that was used for collection of the dataset|
+| `permission` | access permission, possible values: 0=closed; 1=need permission from the owner; 2=open|
+| `context` | the context related to the dataset, possible values: 0=behavioral data; 1=environmental data; 2=unknown|
+| `description` | a short description of the dataset|
 
 

@@ -29,8 +29,8 @@ The response results may contain information of multiple datasets, so the respon
 | `time_u`  | the time when the dataset was uploaded. | 
 | `size`  | size of the dataset.                |
 | `means` | the means that was used for collection of the dataset|
-| `permission` | access permission, possible values: 0=closed; 1=need permission from the owner; 2=open|
-| `context` | the context related to the dataset, possible values: 0=behavioral data; 1=environmental data; 2=unknown|
+| `permission` | access permission, Enum: `closed`, `need_permission`, `open`|
+| `context` | the context related to the dataset, Enum: `behavior`, `environment`, `unknown`|
 | `description` | a short description of the dataset|
 | `link` | the link access to the dataset (still needs to be decided)|
 

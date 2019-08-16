@@ -12,7 +12,7 @@
 | Parameter | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
 | `user_id`   | user id |
-| `key_words`  | this is optional and still needs further discussions. Ideally the key works should be from users, and is a string with a set of words that are separated by commas, such as "noise, running" | 
+| `key_words`  | this is optional and still needs further discussions. Ideally the key words should be from users, and is a string with a set of words that are separated by commas, such as "noise, running" | 
    
 
 
@@ -23,7 +23,7 @@ The response results may contain information of multiple datasets, so the respon
 | Value | Description                                                                                 |
 |:-------------------|:--------------------------------------------------------------------------------------------|
 | `id`   | the ID of the dataset. |
-| `owner_id`   | the ID of the owner of the dataset. |
+| `owner_id`   | the user ID of the owner of the dataset. |
 | `title`   | title of the dataset. |
 | `time_c`  | the time when the dataset was created. | 
 | `time_u`  | the time when the dataset was uploaded. | 
@@ -31,6 +31,7 @@ The response results may contain information of multiple datasets, so the respon
 | `means` | the means that was used for collection of the dataset|
 | `permission` | access permission, Enum: `closed`, `need_permission`, `open`|
 | `context` | the context related to the dataset, Enum: `behavior`, `environment`, `unknown`|
+| `activity` | the physical activity covered by the dataset, Enum: `walking`, `running`, `biking`|
 | `description` | a short description of the dataset|
 | `link` | the link access to the dataset (still needs to be decided)|
 

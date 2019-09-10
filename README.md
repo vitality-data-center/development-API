@@ -21,7 +21,7 @@
 The response results may contain information of multiple datasets, so the response may be formatted into a [json array](https://stackoverflow.com/questions/12289844/difference-between-jsonobject-and-jsonarray), and each element in this array corresponds to a json object, which refers to a dataset. The following elements may be present in the response, and will be visualized in the [frontend](https://vitality-data-center.github.io/) 
  
 | Value | data type | Description                                                                                 |
-|:-------------------|:--------------------------------------------------------------------------------------------|
+|:------|:------------|:------------------------------------------------------------------------------------------|
 | `id`   | integer|the ID of the dataset. |
 | `owner_id`  | integer | the user ID of the owner of the dataset. |
 | `title`   | VARCHAR(255) |title of the dataset. |
